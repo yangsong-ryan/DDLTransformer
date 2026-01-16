@@ -68,18 +68,11 @@ DDLTransformer/
 ├── popup.html        # 插件弹窗界面
 ├── popup.js          # DDL解析核心逻辑
 ├── icons/            # 图标文件夹
-│   ├── generate_icons.html  # 图标生成工具
-│   └── *.svg         # SVG图标文件
+│   ├── icon16.png    # 16x16 图标
+│   ├── icon48.png    # 48x48 图标
+│   └── icon128.png   # 128x128 图标
 └── README.md         # 使用说明
 ```
-
-## 生成PNG图标（可选）
-
-如果需要为插件添加图标：
-
-1. 用浏览器打开 `icons/generate_icons.html`
-2. 点击下载按钮保存三个尺寸的PNG图标
-3. 修改 `manifest.json` 添加图标配置
 
 ## 许可证
 
