@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "DDL Transformer",
+  "version": "1.0.0",
+  "description": "将SQL DDL语句转换为表格格式（表名、字段名、字段类型、字段注释）",
+  "permissions": [
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
